@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*Para declarar una cadena, necesitamos un nombre de variable, 
+        un operador de asignación, un valor entre comillas simples, comillas dobles o comillas invertidas
+        */
+        let espacio = " "; // una cadena de espacio vacío
+        let primerNombre = "Asabeneh";
+        let apellido = "Yetayeh";
+        let pais = "Finland";
+        let ciudad = "Helsinki";
+        let idioma = "JavaScript";
+        let trabajo = "teacher";
+        let cita = "The saying,'Seeing is Believing' is not correct in 2020.";
+        let quotConBackTick = `The saying,'Seeing is Believing' is not correct in 2020.`;
+        //La conexión de dos o más cadenas entre sí se llama concatenación
+        let nombreCompleto = primerNombre + espacio + apellido; // concatenación, fusionando dos cadenas juntas.
+        console.log(nombreCompleto);
+        /*Podemos concatenar cadenas de diferentes formas.*/
+        //Concatenar usando el operador de suma (es la forma antigua y tediosa)
+        let espacio1 = " ";
+        let primerNombre1 = "Asabeneh";
+        let apellido1 = "Yetayeh";
+        let pais1 = "Finland";
+        let ciudad1 = "Helsinki";
+        let idioma1 = "JavaScript";
+        let trabajo1 = "teacher";
+        let edad = 250;
+
+        let nombreCompleto1 = primerNombre1 + espacio1 + apellido1;
+        let datosPersonaUno =nombreCompleto1 + ". Yo tengo " + edad + ". Vivo en" + pais1; // Adición de cadena ES5
+    
+        console.log(datosPersonaUno);
+
+        //Cadenas literales largas(Si la longitud de la cadena es demasiado grande, no cabe en una línea. 
+        //Podemos usar el carácter de barra invertida (\) 
+        //al final de cada línea para indicar que la cadena continuará en la línea siguiente. )
+
+        const parrafo =
+                "Mi nombre es Asabeneh Yetayeh. Vivo en Finlandia, Helsinki.\
+                Soy profesora y me encanta enseñar. Enseño HTML, CSS, JavaScript, React, Redux, \
+                Node.js, Python, Data Analysis y D3.js para cualquier persona interesada en aprender. \
+                A fines de 2019, estaba pensando en expandir mi enseñanza y llegar a \
+                a la audiencia global y comencé un desafío de Python del 20 de noviembre al 19 de diciembre.\
+                Fue una de las experiencias más gratificantes e inspiradoras.\
+                Ahora, estamos en 2020. Disfruto preparando el desafío 30DaysOfJavaScript y \
+                Espero que tú también estés disfrutando.";
+
+        console.log(parrafo);
+        alert(parrafo);
+
+
+
+
+    </script>
+</body>
+</html>
